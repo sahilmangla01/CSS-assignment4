@@ -78,16 +78,17 @@ h3{
     line-height: 30px;
 }
 .grid{
-    margin-top: 20px;
-    border: 1px solid ;
+    margin: 20px 0;
+    border: 1px solid black ;
     display: grid;
+    height:310px;
     grid-template-columns: repeat(3,1fr) 60px;
     grid-auto-rows: minmax(50px,auto);
     gap: 20px;
-}
-.box{
     color: White;
+    
 }
+
 .grid_box1{
     background-color: red;
     grid-column: 1/5;
@@ -132,6 +133,8 @@ h3{
     text-decoration: underline;
     text-align: center;
     height: 30px;
+    color: black;
+    
 }
 span{
     text-decoration: underline;
